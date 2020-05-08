@@ -11,7 +11,7 @@
 - 코드1 
 ```python
 
-# 1.최소공약수구하기
+# 1.최대공약수구하기
 def cal1(a,b):
 	while b != 0:
 		temp = b
