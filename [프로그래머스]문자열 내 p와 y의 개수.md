@@ -9,6 +9,7 @@
 ## 2. 문제 해결
 
 - 코드1 (for문을 list의 원소에 따라 반복)
+
 ```python
 def solution(s):
     answer = True
@@ -29,6 +30,7 @@ def solution(s):
 ```   
    
 - 코드2 (for문을 인덱스에 따라 반복)
+
 ```python
 def solution(s):
     answer = True
