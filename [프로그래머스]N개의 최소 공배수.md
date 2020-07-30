@@ -33,4 +33,16 @@ def solution(arr):
 
     answer = a
     return answer
-```   
+    
+``` 
+-코드2 (다른사람 풀이)    
+```python
+from fractions import gcd
+
+def solution(arr):
+    answer = arr[0]
+    for i in arr:
+        answer = i * answer / gcd(i, answer)
+    return answer
+    
+```
